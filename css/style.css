@@ -432,8 +432,11 @@ ul.dropdown-menu {
 	margin:4em 0 0 0;
 }
 .w3-agileits-services-left{
-    background: url(../images/2.jpg) no-repeat 0px 0px;
-    background-size: cover;
+    background: url(../images/g1.jpg) no-repeat 0px 0px;
+    min-height: 570px;
+}
+.w3-agileits-services-left2{
+    background: url(../images/g3.jpg) no-repeat 0px 0px;
     min-height: 570px;
 }
 .services-right-grid {
@@ -886,9 +889,9 @@ i.fa.fa-anchor, i.fa.fa-comment, i.fa.fa-heartbeat,i.fa.fa-magnet,i.fa.fa-thumbs
     background: #f44336;
 }
 .w3agile-button a:hover{
-    border: solid 2px #FFFFFF;
-    color: #FFFFFF;
-	background:none;
+    border: solid 2px #333;
+    color: #333;
+    background:none;
 }
 .jarallax {
     position: relative;
@@ -1958,3 +1961,11 @@ h2.typoh2{
 	}
 }
 /*-- //responsive --*/
+
+h3 {}
+
+h3#recipe-number-people {
+    text-align: center;
+    padding: 20px 0px 0px;
+};
+}
