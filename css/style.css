@@ -1969,3 +1969,18 @@ h3#recipe-number-people {
     padding: 20px 0px 0px;
 };
 }
+
+.subheading {}
+
+.subheading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#button1 {
+    float: left;
+}
+
+#button2 {
+    float: right;
+}
