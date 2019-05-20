@@ -90,7 +90,8 @@ body{
 /*-- top-nav --*/
 .top-nav {
     margin: 2em 0 0 0;
-	float: right;
+    float: right;
+    font-size: 18px;
 }
 .top-nav ul{
     padding: 0;
@@ -209,14 +210,14 @@ ul.dropdown-menu {
 }
 .agileits-banner-info h3{
     color: #FFFFFF;
-    font-size: 4em;
+    font-size: 6em;
     margin: 0;
     font-weight: 700;
     font-family: 'Open Sans Condensed';
 }
 .agileits-banner-info p{
     color: #ffffff;
-    font-size: .875em;
+    font-size: 1.875em;
     margin: 1em 0 0 0;
     line-height: 1.8em;
     font-weight: 700;
@@ -422,11 +423,12 @@ ul.dropdown-menu {
 }
 .services-heading h2,.w3l-offer-heading h3,.wthree-special-heading h3,.w3-about-heading h2,.w3-different-heading h3,.agileits-team-heading h3,.contact-form h3,.w3ls-contact-grids h3{
 	color: #2f2f2f;
-    margin: 0;
-    font-size: 2.5em;
-    text-transform: capitalize;
-    font-family: 'Pacifico', cursive;
-    text-align: center;
+	margin: 0;
+	font-size: 2.5em;
+	text-transform: capitalize;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	padding-bottom: 20px;
 }
 .w3-agileits-services-grids{
 	margin:4em 0 0 0;
@@ -1983,4 +1985,8 @@ h3#recipe-number-people {
 
 #button2 {
     float: right;
+}
+
+span.brand-red {
+    color: red;
 }
